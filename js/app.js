@@ -3,7 +3,7 @@ const userBoxes = document.querySelector(".user__boxes");
 const API__URL = "https://jsonplaceholder.typicode.com/users";
 
 async function userApi(URL) {
-  let data = await fetch(URL);
+//   let data = await fetch(URL);
 //   data
 //     .json()
 //     .then((res) => mapUser(res))
