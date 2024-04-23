@@ -4,10 +4,10 @@ const API__URL = "https://jsonplaceholder.typicode.com/users";
 
 async function userApi(URL) {
   let data = await fetch(URL);
-//   data
-//     .json()
-//     .then((res) => mapUser(res))
-//     .catch((error) => console.log(error));
+  //   data
+  //     .json()
+  //     .then((res) => mapUser(res))
+  //     .catch((error) => console.log(error));
   try {
     let userData = await data.json();
     mapUser(userData);
